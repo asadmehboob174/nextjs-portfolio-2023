@@ -12,6 +12,18 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
+     <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+          as="style"
+          onLoad="this.onload=null;this.rel='stylesheet'"
+        />
+        <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+          as="style"
+          onLoad="this.onload=null;this.rel='stylesheet'"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
